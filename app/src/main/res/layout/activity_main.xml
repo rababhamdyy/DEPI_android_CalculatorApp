@@ -7,6 +7,7 @@
     android:background="@color/black">
 
     <TextView
+        android:id="@+id/tv_navbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calculator"
@@ -15,6 +16,19 @@
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:background="@color/dark_blue"/>
+
+    <TextView
+        android:id="@+id/tv_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operation"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_navbar"
+        android:paddingStart="40dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="50dp"/>
+
 <!--    first layer -->
     <Button
         android:id="@+id/btn_c"

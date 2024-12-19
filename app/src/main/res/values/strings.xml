@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Calculator App</string>
     <string name="calculator">Calculator</string>
+    <string name="operation">25 + 34</string>
     <string name="c_">C</string>
     <string name="zero">0</string>
     <string name="dot">.</string>
