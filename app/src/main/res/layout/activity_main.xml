@@ -68,7 +68,7 @@
     <Button
         android:id="@+id/btn_equal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:text="@string/equal"
         android:textSize="50sp"
         android:textColor="@color/white"
@@ -115,18 +115,7 @@
         android:layout_toEndOf="@id/btn_two"
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
-    <Button
-        android:id="@+id/btn_division"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/division"
-        android:textSize="50sp"
-        android:textColor="@color/white"
-        android:background="@drawable/btn_orange_rounded"
-        android:layout_toEndOf="@id/btn_three"
-        android:layout_above="@id/btn_equal"
-        android:layout_marginVertical="5dp"
-        android:layout_marginHorizontal="5dp"/>
+
 
     <!--    third layer -->
     <Button
@@ -165,15 +154,15 @@
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
     <Button
-        android:id="@+id/btn_multiply"
+        android:id="@+id/btn_division"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/multiply"
+        android:text="@string/division"
         android:textSize="50sp"
         android:textColor="@color/white"
         android:background="@drawable/btn_orange_rounded"
         android:layout_toEndOf="@id/btn_six"
-        android:layout_above="@id/btn_division"
+        android:layout_above="@id/btn_equal"
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
 
@@ -214,17 +203,18 @@
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
     <Button
-        android:id="@+id/btn_subtract"
+        android:id="@+id/btn_multiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/subtract"
+        android:text="@string/multiply"
         android:textSize="50sp"
         android:textColor="@color/white"
         android:background="@drawable/btn_orange_rounded"
         android:layout_toEndOf="@id/btn_nine"
-        android:layout_above="@id/btn_multiply"
+        android:layout_above="@id/btn_division"
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
+
 
     <!--    fiftieth layer -->
     <Button
@@ -263,16 +253,17 @@
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
     <Button
-        android:id="@+id/btn_addition"
+        android:id="@+id/btn_addSubtract"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/addition"
+        android:text="@string/addSubtract"
         android:textSize="50sp"
         android:textColor="@color/white"
         android:background="@drawable/btn_orange_rounded"
         android:layout_toEndOf="@id/btn_closing_parenthesis"
-        android:layout_above="@id/btn_subtract"
+        android:layout_above="@id/btn_multiply"
         android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="5dp"/>
+
 
 </RelativeLayout>
